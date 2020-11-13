@@ -74,14 +74,7 @@ a:hover{
     color: #4CAF50;
 }
 
-/*ตาราง*/
-td{
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    border-style: soli;
-    border-width: 10px;
-    border-color:  #4CAF50;
-}
+
 
 iframe{
     border-style: none;
@@ -92,3 +85,4 @@ iframe{
 audio{
     float:right
 }
+

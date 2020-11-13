@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/Css" href="css/Web.css">
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.js"></script>
     <title>KoonKinG</title>
 </head>
 <body>
@@ -17,7 +19,32 @@
                         <li><a href="data.html" target="myframe">กรอกข้อมูล</a></li>
                         <li><a href="CheckBox.html" target="myframe">CheckBox</a></li>
                         <li><a href="BMI.html" target="myframe">ออกแบบ BMI</a></li>
+                        <li><a href="attraction.html" target="myframe">10 ที่เที่ยว JSON</a></li>
+                        <li style="float: right" target="myframe"><a href="https://www.facebook.com/koonking.krissada.9/">FaceBooK</a></li>
                       </ul></H3>
         </div>
 </body>
+        <script> 
+                $(document).ready(function(){
+                $("#flip").click(function(){
+                $("#panel").slideToggle("slow");
+          });
+        });
+        </script>
+        <style> 
+                #panel, #flip {
+                  padding: 10px;
+                  text-align: center;
+                  background-color: #ffffff;
+                  border: solid 1px #4CAF50;
+                }
+                
+                #panel {
+                  padding: 20px;
+                  display: none;
+                }
+                </style>
+        <div id="flip">ABOUT ME</div>
+        <div id="panel">นายกฤษฎา ทองภาธรรม <br><br> รหัสนักศึกษา 61424201001 <br><br> สาขาวิทยาการคอมพิวเตอร์</div><br><br><br>
+        <img src="images/HIGHRES_CTA_ANIMATED_TRANSPARENT_900x440.gif"width="100%">
 </html>

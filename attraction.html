@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery.js" ></script>
+    <link rel="stylesheet" type="text/css" href="css/mydatatable.css">
+    <script type="text/javascript" src="js/jqueryDataTable.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script>
+        $(function(){
+        $('#data-table').DataTable(
+            {
+            "ajax": "example3.json",
+        } );
+     } );
+    </script>
+</head>
+<body>
+    <center><h1>10 ที่เที่ยว สวยที่สุดในไทย</h1></center>
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>ชื่อ</th>
+                <th>จังหวัด</th>
+
+            </tr>
+        </thead>
+        
+    </table>
+    
+</body>
+</html>
